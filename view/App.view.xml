@@ -1,0 +1,20 @@
+<carlos:View 
+    xmlns="sap.m"
+    xmlns:carlos="sap.ui.core.mvc"
+    controllerName="sap.ui.demo.controller.App">
+    <Button 
+        text="Say Hello"
+        enabled="true"
+        type="Emphasized"
+        textDirection="LTR"
+        press=".onShowHello"
+        tooltip="Press Me"
+    ></Button>
+    <Button 
+        text="increment by 1"
+        press=".incrementBy1"
+        width="300px"
+        tooltip="Press Me"
+    ></Button>
+    <Text id="counter" text="0"/>
+</carlos:View>
