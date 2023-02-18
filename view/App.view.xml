@@ -14,7 +14,7 @@
         text="increment by 1"
         press=".incrementBy1"
         width="300px"
-        tooltip="Press Me"
+        tooltip="Press Me!"
     ></Button>
     <Text id="counter" text="0"/>
 </carlos:View>

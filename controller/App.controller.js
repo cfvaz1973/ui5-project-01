@@ -5,7 +5,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
     onShowHello: function () {
       // show a native JavaScript alert
       /* eslint-disable no-alert */
-      alert("Hello World");
+      alert("Hello World!");
       /* eslint-enable no-alert */
     },
     incrementBy1: function () {
